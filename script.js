@@ -9,7 +9,7 @@ submitButton.addEventListener("click", function() {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer $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`
+      "Authorization": `Bearer ${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}`
     },
     body: JSON.stringify({
       prompt: userInput,
